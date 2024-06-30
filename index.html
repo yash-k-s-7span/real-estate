@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth md:scroll-auto">
+
+<head>
+
+    <link href="./src/assets/output.css" rel="stylesheet" />
+    <link rel="icon" href="images/small-logo.png" type="image/x-icon" />
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@800&family=Poppins:wght@400;800&family=Sora:wght@100..800&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@800&family=Poppins:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@600&display=swap" rel="stylesheet">
+    <title>Renty</title>
+    <style>
+        ::-webkit-scrollbar {
+            display: none;
+        }
+
+        .scroll-container {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+</head>
+<div>
+</div>
+
+<body class="bg-black ">
+    <div class="main">
+        <header class="sticky top-0 bg-black mt-8 z-10 px-5">
+            <!-- Header Section -->
+            <div class="flex justify-between items-center sm:hidden ">
+                <!--[-->
+                <img src="./images/Renty-header-logo.png" alt="logo`" />
+                <div class="sm:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                        <path fill="white" fill-rule="evenodd"
+                            d="M20.75 7a.75.75 0 0 1-.75.75H4a.75.75 0 0 1 0-1.5h16a.75.75 0 0 1 .75.75m0 5a.75.75 0 0 1-.75.75H4a.75.75 0 0 1 0-1.5h16a.75.75 0 0 1 .75.75m0 5a.75.75 0 0 1-.75.75H4a.75.75 0 0 1 0-1.5h16a.75.75 0 0 1 .75.75"
+                            clip-rule="evenodd" />
+                    </svg>
+                </div>
+                <!--]-->
+            </div>
+
+            <div class="hidden md:text-base md:flex container text-navColor">
+                <!--[-->
+                <nav class="sm:flex justify-between font-poppins items-center w-full">
+                    <ul class="flex gap-10 ">
+                        <li class="nav-link"><a href="">Buying </a></li>
+                        <li class="nav-link"><a href="">Renting</a></li>
+                        <li class="nav-link"> <a href=""> Selling </a></li>
+                    </ul>
+                    <div>
+                        <a href="index.html"><img src="images/Renty-header-logo.png" alt=""></a>
+                    </div>
+
+                    <ul class="flex gap-10">
+                        <li class="nav-link"> <a href="">About us</a> </li>
+                        <li class="nav-link"> <a href="">Services</a> </li>
+                        <li class="nav-link"> <a href="">Contact</a> </li>
+                    </ul>
+                </nav>
+                <!--]-->
+            </div>
+        </header>
+
+        <!-- First Section -->
+        <section>
+            <diV class="container">
+                <!-- <div class="flex flex-row justify-center items-center container "> -->
+                <div class="mt-16 md:mx-auto md:flex md:flex-row-reverse md:gap-20 md:items-start">
+                    <div class="md:w-1/2 md:pt-24">
+                        <h1 class="text-slate-100 text-4xl md:text-7xl font-sora-semi-bold font-bold">Discover The Ideal
+                            Property Here</h1>
+                        <p class="font-poppins font-normal text-base text-gray1 mt-6">As soon as I had found a
+                            few properties
+                            that
+                            suited
+                            me, I was able to forget about how difficult it was to find a suitable home.</p>
+                        <div class="bg-slate-100 rounded-xl md:mt-12 mt-10 py-4 px-5  text-gray1">
+
+                            <div
+                                class="flex flex-col gap-7 md:pl-5 md:flex md:flex-row md:items-center justify-between">
+                                <div class="flex items-center">
+                                    <div>
+                                        <img src="./images/location(1).svg" alt="location-image" size="">
+                                    </div>
+                                    <div class="pl-3">
+                                        <select class="bg-slate-100 w-full text-sm font-poppins">
+                                            <option selected value="location" class="font-light">Location</option>
+                                            <option value="" class="font-medium">Usa</option>
+                                            <option value="" class="font-medium">London</option>
+                                            <option value="" class="font-medium">Japan</option>
+                                        </select>
+                                        <span
+                                            class="text-zinc-800 ml-1 text-base font-poppins font-medium">Yogyakarta</span>
+                                    </div>
+                                </div>
+
+                                <div class="flex items-center">
+                                    <div>
+                                        <img src="./images/home(1).svg" alt="location-image">
+                                    </div>
+                                    <div class="pl-3">
+                                        <select class="bg-slate-100 w-full text-sm font-poppins">
+                                            <option selected value="location" class="font-light">Type</option>
+                                            <option value="" class="font-medium">Residential</option>
+                                            <option value="" class="font-medium">Commercial</option>
+                                            <option value="" class="font-medium">Flat</option>
+                                        </select>
+                                        <span class="text-zinc-800 ml-1 text-base font-poppins font-medium">Industrial
+                                            Home
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="text-slate-100 mt-2 font-poppins">
+                                    <button class="bg-green text-center font-normal rounded-lg px-10 w-full py-2 "
+                                        type="button">Search</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hidden md:mt-20 md:flex md:gap-20  text-slate-100">
+                            <div class="md:text-4xl">
+                                <div class="flex">
+                                    <span class="text-4xl font-sora-semi-bold font-semibold">280</span>
+                                    <img src="images/+.svg" alt="+">
+                                </div>
+
+                                <p class="text-gray-500 text-base mt-2.5 font-poppins font-normal">Google Review
+                                </p>
+                            </div>
+                            <div class="md:text-4xl">
+                                <div class="flex">
+                                    <span class="font-sora-semi-bold font-semibold text-4xl">15</span>
+                                    <img src="images/+.svg" alt="+">
+                                </div>
+
+                                <p class="text-gray-500 text-base mt-2.5 font-poppins font-normal">Years Experience
+                                </p>
+                            </div>
+                            <div class="md:text-4xl">
+                                <div class="flex">
+                                    <span class="font-sora-semi-bold font-semibold text-4xl">49</span>
+                                    <img src="images/+.svg" alt="+">
+                                </div>
+
+                                <p class="text-gray-500 text-base mt-2.5 font-poppins font-normal">Award Winning
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="md:w-1/2 md:py-16 pt-16">
+                        <div class="hero-image relative">
+                            <img src="images/rectangle-image/Hero Section/Rectangle 716.png"
+                                class="absolute inset-0 w-full h-full" alt="rectangle-image">
+                        </div>
+                    </div>
+
+                    <div class="md:hidden pt-16  flex md:gap-20 gap-10 justify-center  text-slate-100">
+                        <div class="font-semibold font-sora-semi-bold">
+                            <div class="flex">
+                                <span class="font-semibold text-2xl">280</span>
+                                <img src="images/+.svg" alt="+">
+                            </div>
+                            <p class="text-gray1 font-normal md:text-sm text-xs font-poppins mt-2.5">Google Review
+                            </p>
+                        </div>
+                        <div class="font-semibold font-sora-semi-bold">
+                            <div class="flex">
+                                <span class="font-semibold text-2xl">15</span>
+                                <img src="images/+.svg" alt="+">
+                            </div>
+                            <p class="text-gray1 md:text-sm text-xs mt-2.5 font-poppins font-normal">Years
+                                Experience
+                            </p>
+                        </div>
+                        <div class="font-semibold font-sora-semi-bold">
+                            <div class="flex">
+                                <span class="font-semibold text-2xl">49</span>
+                                <img src="images/+.svg" alt="+">
+                            </div>
+                            <p class="text-gray1 md:text-sm text-xs mt-2.5 font-normal font-poppins">Award Winning
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Popular Page -->
+                <div class="section-popular z-10">
+                    <div class="md:pt-36 relative">
+                    </div>
+                    <div>
+                        <span class="text-green text-xl">Popular</span>
+
+                        <div class="flex justify-between md:mt-4 mt-4">
+                            <h2 class="text-slate-100 tracking-normal font-semibold md:text-5xl mb-12 text-4xl">Our
+                                Popular
+                                Residence
+                            </h2>
+                            <div class="md:flex font-poppins font-normal hidden justify-center md:mt-4">
+                                <div class="mr-2">
+                                    <a href="#" class="text-navColor text-lg">
+                                        <span>Explore All</span></a>
+                                </div>
+                                <div class="md:mt-1">
+                                    <img src="images/arrow-right.svg " alt="image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- First Card -->
+                    <div class="md:mt-12 bg-intersect rounded-lg grid md:grid-cols-3 gap-8 ">
+                        <div class="bg-black1 rounded-2xl">
+
+                            <img src="images/rectangle-image/Card Section/img 1.png" alt="building-image"
+                                class="w-full">
+
+                            <div class="p-5 space-y-5">
+                                <div class=" text-slate-100 flex  gap-3">
+                                    <img src="./images/location-vector.svg" alt="location-photo">
+                                    <span>Jakarta Barat, USA </span>
+                                </div>
+
+                                <div class="gap-8">
+                                    <div class="flex w-full items-center gap-3 md:gap-8 text-gray1">
+                                        <div class="flex md:gap-2">
+                                            <img src="./images/rectangle-image/Bed 2.svg" alt="bed-photo" />
+                                            <p class="ml-1">4 bed</p>
+                                        </div>
+                                        <div class="flex md:gap-2">
+                                            <img src="./images/rectangle-image/FrameCorners.svg" alt="frame" />
+                                            <p class="ml-1">10x10 m</p>
+                                        </div>
+                                        <div class="flex md:gap-2">
+                                            <img src="./images/rectangle-image/SquareLogo.svg" alt="vector" />
+                                            <p class="ml-1">1800 S</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex items-center md:justify-between gap-6">
+                                    <div>
+                                        <button
+                                            class="border-2 border-green border-graybg bg-black2 bg-transparent text-center rounded-2xl text-green flex md:w-44 h-14 w-32  justify-center items-center  hover:bg-green hover:text-slate-100">Book
+                                            Now</button>
+                                    </div>
+                                    <div class="flex">
+                                        <span class="text-slate-100 text-xl font-poppins font-medium">$5,200,000</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- Second Card -->
+                        <div class="bg-black1 rounded-2xl">
+                            <img src="images/rectangle-image/Card Section/img 2.png" alt="building-image"
+                                class="w-full">
+                            <div class="p-5 space-y-5">
+                                <div class=" text-slate-100 flex  gap-3">
+                                    <img src="./images/location-vector.svg" alt="location-photo">
+                                    <span>Jakarta Barat, London </span>
+                                </div>
+
+                                <div class="gap-8">
+                                    <div class="flex w-full items-center gap-3 md:gap-8 text-gray1">
+                                        <div class="flex md:gap-2">
+                                            <img src="./images/rectangle-image/Bed 2.svg" alt="bed-photo" />
+                                            <p class="ml-1">3 bed</p>
+                                        </div>
+                                        <div class="flex md:gap-2">
+                                            <img src="./images/rectangle-image/FrameCorners.svg" alt="frame" />
+                                            <p class="ml-1">9x9 m</p>
+                                        </div>
+                                        <div class="flex md:gap-2">
+                                            <img src="./images/rectangle-image/SquareLogo.svg" alt="vector" />
+                                            <p class="ml-1">1800 S</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex items-center md:justify-between gap-6">
+                                    <div>
+                                        <button
+                                            class="border-2 border-green border-graybg bg-black2 bg-transparent text-center rounded-2xl text-green flex md:w-44 w-32 h-14 justify-center items-center  hover:bg-green hover:text-slate-100">Book
+                                            Now</button>
+                                    </div>
+                                    <div class="flex">
+                                        <span class="text-slate-100 text-xl font-poppins font-medium">$4,300,000</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Third Card -->
+                        <div class="bg-black1 rounded-2xl">
+                            <img src="images/rectangle-image/Card Section/img 3.png" alt="building-image"
+                                class="w-full">
+                            <div class="p-5 space-y-5">
+                                <div class=" text-slate-100 flex  gap-3">
+                                    <img src="./images/location-vector.svg" alt="location-photo">
+                                    <span>Jakarta Barat, Japan </span>
+                                </div>
+
+                                <div class="gap-8">
+                                    <div class="flex w-full items-center gap-3 md:gap-8 text-gray1">
+                                        <div class="flex md:gap-2">
+                                            <img src="./images/rectangle-image/Bed 2.svg" alt="bed-photo" />
+                                            <p class="ml-1">6 bed</p>
+                                        </div>
+                                        <div class="flex md:gap-2">
+                                            <img src="./images/rectangle-image/FrameCorners.svg" alt="frame" />
+                                            <p class="ml-1">12x12 m</p>
+                                        </div>
+                                        <div class="flex md:gap-2">
+                                            <img src="./images/rectangle-image/SquareLogo.svg" alt="vector" />
+                                            <p class="ml-1">2400 S</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex items-center md:justify-between gap-6">
+                                    <div>
+                                        <button
+                                            class="border-2 border-green border-graybg bg-black2 bg-transparent text-center rounded-2xl text-green flex md:w-44 w-32 h-14 justify-center items-center  hover:bg-green hover:text-slate-100">Book
+                                            Now</button>
+                                    </div>
+                                    <div class="flex">
+                                        <span class="text-slate-100 text-xl font-poppins font-medium">$7,000,000</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="md:hidden flex justify-center md:mt-4">
+                        <div class="mr-2">
+                            <a href="#" class="text-navColor text-lg">
+                                <span>Explore All</span></a>
+                        </div>
+                        <div class="md:mt-1">
+                            <img src="images/arrow-right.svg" alt="image">
+                        </div>
+                    </div>
+                </div>
+            </diV>
+        </section>
+
+
+
+        <!-- services Page -->
+        <section class="bg-black py-28">
+            <div class="md:flex md:flex-row-reverse container justify-center items-center md:gap-32">
+                <div class="md:w-1/2">
+                    <span class="text-green text-xl font-poppins    ">Our Services</span>
+                    <h3 class="text-slate-100 mt-4 font-semibold md:text-5xl text-4xl font-sora-semi-bold">We make your
+                        comfort
+                        our
+                        top
+                        priority.</h3>
+                    <p class="font-poppins-regular text-base text-gray-500 mt-4">In a free hour,when our power of
+                        choice
+                        is
+                        untrammelled and when nothing
+                        prevents our being able to
+                        do what we like best.</p>
+                    <div class="pt-11 grid grid-cols-2 gap-7 text-white font-medium font-poppins text-sm">
+                        <div class="flex flex-wrap items-center">
+                            <img src="./images/rectangle-image/star/hello.svg" alt="star-image">
+                            <span>Best market</span>
+                        </div>
+
+                        <div class="flex flex-grow-0">
+                            <img src="./images/rectangle-image/star/hello.svg" alt="star-image">
+                            <span>Unstale prices</span>
+                        </div>
+
+                        <div class="flex flex-wrap items-center">
+                            <img src="./images/rectangle-image/star/hello.svg" alt="star-image">
+                            <span>Top Sell</span>
+                        </div>
+
+                        <div class="flex">
+                            <img src="./images/rectangle-image/star/hello.svg" alt="star-image">
+                            <p>Security of data</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="md:w-1/2">
+                    <div class=" mt-16 pb-24 service-image relative">
+                        <img src="./images/rectangle-image/HouseImage.png" class="absolute inset-0 w-full h-full"
+                            alt="house-image" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Benefits Page -->
+        <section class="bg-blackbg">
+            <div class="md:flex items-center justify-center container pt-12 md:pt-0">
+                <div class="md:w-1/2">
+                    <span class="text-green text-xl font-poppins font-medium">Benefits</span>
+                    <h3 class="text-slate-100 mt-4 font-sora-semi-bold font-semibold md:text-5xl text-4xl">Why Choose Us
+                    </h3>
+                    <p class="font-poppins-regular font-normal text-base text-gray1 mt-4">Renty is a
+                        trustworthy developer in the
+                        real
+                        estate business. He has developed a reputation for trust and will have that reputation for years
+                        to
+                        come.</p>
+                    <div class="flex flex-col font-poppins font-medium gap-9 text-lg text-white mt-11">
+                        <div class="flex gap-3">
+                            <img src="images/rectangle-image/benefits/trust.svg" alt="image" />
+                            <span>Trusted Developer</span>
+                        </div>
+                        <div class="flex gap-3">
+                            <img src="images/rectangle-image/benefits/no-commisions.svg" alt="image" />
+                            <span>No Commisions</span>
+                        </div>
+                        <div class="flex gap-3">
+                            <img src="images/rectangle-image/benefits/safe.svg" alt="image" />
+                            <span>A Safe and Trustworthy</span>
+                        </div>
+                        <div class="flex gap-3">
+                            <img src="images/rectangle-image/benefits/buy.svg" alt="image" />
+                            <span>Buy with Confidence</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-16 md:w-1/2">
+                    <img src="./images/rectangle-image/curved-image.png" class=" md:w-full" alt="curve-image" />
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog -->
+        <section>
+            <div class="container mt-24 md:mt-36">
+                <div>
+                    <span class="text-green text-xl font-poppins font-normal">Popular</span>
+
+                    <div class="flex justify-between w-full">
+                        <h3 class="text-slate-100 pt-4 font-sora-semi-bold font-semibold md:text-5xl text-4xl">Homes For
+                            Renty
+                            News and
+                            Stores</h3>
+                        <div class="md:flex hidden">
+                            <img src="images/rectangle-image/Blogs/slide-left.svg" alt="arrow">
+                            <img src="images/rectangle-image/Blogs/slide-right.svg" alt="arrow">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-images">
+                    <div class="mt-12  md:mt-14 scroll-container overflow-x-auto whitespace-nowrap">
+                        <div class="relative inline-block w-64 h-64">
+                            <img src="images/rectangle-image/Blogs/gallery-one.png" alt="Placeholder Image"
+                                class="h-full w-full object-cover transition-opacity duration-300 ease-in-out hover:opacity-50 rounded-lg">
+                            <div
+                                class="absolute inset-0 flex items-center justify-center opacity-0 bg-black bg-opacity-50 hover:opacity-100 transition-opacity duration-300 ease-in-out">
+                                <span
+                                    class="text-white text-lg font-bold transition-colors duration-300 ease-in-out hover:text-yellow-300">Maplewood
+                                    Cottage</span>
+                            </div>
+                        </div>
+
+                        <div class="relative inline-block w-64 h-64 mx-4">
+                            <img src="images/rectangle-image/Blogs/gallery-two.png" alt="Placeholder Image"
+                                class="w-full h-full object-cover transition-opacity duration-300 ease-in-out hover:opacity-50 rounded-lg">
+                            <div
+                                class="absolute inset-0 flex items-center justify-center opacity-0 bg-black bg-opacity-50 hover:opacity-100 transition-opacity duration-300 ease-in-out">
+                                <span
+                                    class="text-white text-lg font-bold transition-colors duration-300 ease-in-out hover:text-yellow-300">Cedar
+                                    Ridge Manor</span>
+                            </div>
+                        </div>
+
+                        <div class="relative inline-block w-64 h-64 mx-4">
+                            <img src="images/rectangle-image/Blogs/gallery-three.png" alt="Placeholder Image"
+                                class="w-full h-full object-cover transition-opacity duration-300 ease-in-out hover:opacity-50 rounded-lg">
+                            <div
+                                class="absolute inset-0 flex items-center justify-center opacity-0 bg-black bg-opacity-50 hover:opacity-100 transition-opacity duration-300 ease-in-out">
+                                <span
+                                    class="text-white text-lg font-bold transition-colors duration-300 ease-in-out hover:text-yellow-300">Oak
+                                    Haven Estate </span>
+                            </div>
+                        </div>
+
+                        <div class="relative inline-block w-64 h-64 mx-4">
+                            <img src="images/rectangle-image/Blogs/gallery-four.png" alt="Placeholder Image"
+                                class="w-full h-full object-cover transition-opacity duration-300 ease-in-out hover:opacity-50 rounded-lg">
+                            <div
+                                class="absolute inset-0 flex items-center justify-center opacity-0 bg-black bg-opacity-50 hover:opacity-100 transition-opacity duration-300 ease-in-out">
+                                <span
+                                    class="text-white text-lg font-bold transition-colors duration-300 ease-in-out hover:text-yellow-300">Willowbrook
+                                    Retreat</span>
+                            </div>
+                        </div>
+
+                        <div class="relative inline-block w-64 h-64 mx-4">
+                            <img src="images/rectangle-image/Blogs/gallery-five" alt="Placeholder Image"
+                                class="w-full h-full object-cover transition-opacity duration-300 ease-in-out hover:opacity-50 rounded-lg">
+                            <div
+                                class="absolute inset-0 flex items-center justify-center opacity-0 bg-black bg-opacity-50 hover:opacity-100 transition-opacity duration-300 ease-in-out">
+                                <span
+                                    class="text-white text-lg font-bold transition-colors duration-300 ease-in-out hover:text-yellow-300">Birchwood
+                                    Lodge</span>
+                            </div>
+                        </div>
+
+
+                        <div class="relative inline-block w-64 h-64 mx-4">
+                            <img src="images/rectangle-image/Blogs/galley-six.jpg" alt="Placeholder Image"
+                                class="w-full h-full object-cover transition-opacity duration-300 ease-in-out hover:opacity-50 rounded-lg">
+                            <div
+                                class="absolute inset-0 flex items-center justify-center opacity-0 bg-black bg-opacity-50 hover:opacity-100 transition-opacity duration-300 ease-in-out">
+                                <span
+                                    class="text-white text-lg font-bold transition-colors duration-300 ease-in-out hover:text-yellow-300">Pinecrest
+                                    Chalet</span>
+                            </div>
+                        </div>
+
+
+                        <div class="relative inline-block w-64 h-64 mx-4">
+                            <img src="images/rectangle-image/Blogs/gallery-seven.jpg" alt="Placeholder Image"
+                                class="w-full h-full object-cover transition-opacity duration-300 ease-in-out hover:opacity-50 rounded-lg">
+                            <div
+                                class="absolute inset-0 flex items-center justify-center opacity-0 bg-black bg-opacity-50 hover:opacity-100 transition-opacity duration-300 ease-in-out">
+                                <span
+                                    class="text-white text-lg font-bold transition-colors duration-300 ease-in-out hover:text-yellow-300">Elmwood
+                                    Villa</span>
+                            </div>
+                        </div>
+
+                        <div class="relative inline-block w-64 h-64 mx-4">
+                            <img src="images/rectangle-image/Blogs/gallery-eight" alt="Placeholder Image"
+                                class="w-full h-full object-cover transition-opacity duration-300 ease-in-out hover:opacity-50 rounded-lg">
+                            <div
+                                class="absolute inset-0 flex items-center justify-center opacity-0 bg-black bg-opacity-50 hover:opacity-100 transition-opacity duration-300 ease-in-out">
+                                <span
+                                    class="text-white text-lg font-bold transition-colors duration-300 ease-in-out hover:text-yellow-300">Ashcroft
+                                    Manor</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Page -->
+        <section class=" bg-blackbg md:mt-32 py-14 mt-20 ">
+
+            <div class="container">
+                <!--[-->
+                <h3 class="text-slate-100 md:text-5xl text-4xl md:text-center font-sora-semi-bold font-semibold mt-8">
+                    FAQ's -
+                    Frequently
+                    Asked Questions
+                </h3>
+                <p
+                    class="font-poppins-regular font-normal text-base text-center mb-8 max-w-3xl mx-auto md:mb-28 text-gray-500  mt-4">
+                    As
+                    you might
+                    imagine,
+                    real
+                    estate agents
+                    field quite a few questions every day. People are naturally curious, and it's and agent's job to
+                    guide.
+                </p>
+                <div class="md:max-w-4xl md:mx-auto ">
+                    <div class="space-y-7">
+                        <div
+                            class="border-2 border-green  md:h-16 md:px-14 bg-transparent text-center rounded-lg text-white flex justify-between p-3 hover:bg-green hover:text-white w-full ">
+                            <h4 class="text-white font-sora-semi-bold font-semibold  md:text-2xl text-lg">How can I
+                                build
+                                equity into my
+                                house?</h4>
+                            <img src="./images/rectangle-image/FAQ's/Plus.svg" class="hover:rotate-45 "
+                                alt="cross-image" />
+                        </div>
+
+                        <div
+                            class="border-2 border-green md:h-16 md:px-14 bg-transparent text-center rounded-lg text-white flex justify-between p-3 hover:bg-green hover:text-white w-full ">
+                            <h4 class="text-white font-sora-semi-bold font-semibold md:text-2xl text-lg">How Big is An
+                                Acre?</h4>
+                            <img src="./images/rectangle-image/FAQ's/Plus.svg" class="hover:rotate-45 "
+                                alt="cross-image" />
+                        </div>
+
+                        <div
+                            class="border-2 border-green md:h-16 md:px-14 bg-transparent text-center rounded-lg text-white flex justify-between p-3 hover:bg-green hover:text-white w-full ">
+                            <h4 class="text-white font-sora-semi-bold font-semibold md:text-2xl text-lg">What are
+                                closing
+                                costs?</h4>
+                            <img src="./images/rectangle-image/FAQ's/Plus.svg" class="hover:rotate-45 "
+                                alt="cross-image" />
+                        </div>
+
+                        <div
+                            class="border-2 border-green md:h-16 md:px-14 bg-transparent text-center rounded-lg text-white flex justify-between p-3 hover:bg-green hover:text-white w-full ">
+                            <h4 class="text-white font-sora-semi-bold font-semibold md:text-2xl text-lg">What is Title
+                                Insurance?</h4>
+                            <img src="./images/rectangle-image/FAQ's/Plus.svg" class="hover:rotate-45 "
+                                alt="cross-image" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--]-->
+        </section>
+
+        <!-- Footer Page -->
+
+        <footer class="mt-24 px-5 md:mt-48 container ">
+            <div class="md:flex justify-between">
+
+                <div>
+                    <h2 class="font-semibold font-sora-semi-bold text-xl text-white">
+                        More Renty
+                    </h2>
+                    <hr class="border border-green w-20 mb-7">
+
+                    <ul class="text-base text-gray-500 font-poppins-regular font-normal space-y-5 ">
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Feedback</a></li>
+                        <li><a href="#">Join Our Community</a></li>
+                        <li><a href="#">Agent support</a></li>
+                    </ul>
+                </div>
+
+                <div class="md:mt-0 md:w-96 mt-16">
+                    <h2 class="text-white font-semibold font-sora-semi-bold text-xl">
+                        Stay connected</h2>
+                    <hr class="border border-green w-20 mb-5">
+
+                    <p class="text-sm text-gray-500 font-poppins-regular font-normal">Sign up for inspiration
+                        for nourishing
+                        you
+                        body, mind and shine from inside. Added bonus: you'll
+                        get 10% off your first Renty order.</p>
+
+                    <input
+                        class="opacity-100 bg-transparent w-full text-gray-500 font-poppins-regular pb-3 text-sm mt-8 border-b-2 border-gray-400 md:mb-4 "
+                        type="email" name="email" placeholder="Email Address" />
+
+                    <div class="md:flex justify-end">
+                        <button
+                            class="w-full md:w-32 border-2 mt-5 bg-green border-green bg-transparent text-base font-medium font-poppins mb-8 center rounded-lg text-white py-3 md:mt-5 hover:bg-green hover:text-slate-100 items-end">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="font-poppins-regular text-base text-gray-500  md:order-1">
+                <div class="flex gap-9 mt-11">
+                    <a href="https://www.instagram.com" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                            <path fill="currentColor"
+                                class="w-10 h-10 fill-current text-gray-500 hover:text-white hover:bg-gray-900 transition duration-300 ease-in-out"
+                                d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4zm9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3" />
+                        </svg>
+                    </a>
+
+                    <a href="https://www.facebook.com" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 512 512">
+                            <path
+                                d="M288 192v-38.1c0-17.2 3.8-25.9 30.5-25.9H352V64h-55.9c-68.5 0-91.1 31.4-91.1 85.3V192h-45v64h45v192h83V256h56.4l7.6-64h-64z"
+                                fill="currentColor"
+                                class="w-10 h-10 fill-current text-gray-500 hover:text-white hover:bg-gray-900 transition duration-300 ease-in-out">
+                            </path> />
+                        </svg>
+                    </a>
+
+                    <a href="https://www.linkedin.com">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                            <path fill="currentColor"
+                                class="w-10 h-10 fill-current text-gray-500 hover:text-white hover:bg-gray-900 transition duration-300 ease-in-out"
+                                d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2zm-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93zM6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37z" />
+                        </svg>
+                    </a>
+
+                    <a href="https://www.twitter.com">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="-2 -4 24 24">
+                            <path fill="currentColor"
+                                class="w-10 h-10 fill-current text-gray-500 hover:text-white hover:bg-gray-900 transition duration-300 ease-in-out"
+                                d="M20 1.907a8.292 8.292 0 0 1-2.356.637A4.07 4.07 0 0 0 19.448.31a8.349 8.349 0 0 1-2.607.98A4.12 4.12 0 0 0 13.846.015c-2.266 0-4.103 1.81-4.103 4.04c0 .316.036.625.106.92A11.708 11.708 0 0 1 1.393.754a3.964 3.964 0 0 0-.554 2.03a4.02 4.02 0 0 0 1.824 3.363A4.151 4.151 0 0 1 .805 5.64v.05c0 1.958 1.415 3.591 3.29 3.963a4.216 4.216 0 0 1-1.08.141c-.265 0-.522-.025-.773-.075a4.098 4.098 0 0 0 3.832 2.807a8.312 8.312 0 0 1-5.095 1.727c-.332 0-.658-.02-.979-.056a11.727 11.727 0 0 0 6.289 1.818c7.547 0 11.673-6.157 11.673-11.496l-.014-.523A8.126 8.126 0 0 0 20 1.907" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="mt-11 mb-8 md:order-2">
+                    <p>Renty Group is committed to ensuring digital accessibility for individuals with disabilities.
+                        We
+                        are continuously working to improve the accessibility of our web experience for everyone.
+                    </p>
+                </div>
+                <div class="mt-6">
+                    <hr class="border-1 border-gray1">
+                </div>
+                <div
+                    class="font-poppins-regular text-sm flex md:my-11 mt-6 mb-10  flex-col gap-2 md:flex-row justify-between">
+                    <p>uihut.com 2022. All Rights Reserved.</p>
+                    <div class="md:flex grid gap-2">
+                        <span>Terms of Use</span>
+                        <span>Terms & Privacy</span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    </div>
+</body>
+
+</html>
